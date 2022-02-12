@@ -31,7 +31,7 @@ vim.opt.wrap = "false",                                  -- Do not wrap around l
 vim.opt.scrolloff = 8,                                   -- Min number of screen lines to keep above and below the cursor
 vim.opt.sidescrolloff = 8,                               -- Min number of columns to keep to the left and right of the cursor
 vim.opt.guifont = "monospace:h17",                       -- Font for the graphical user interface
-vim.opt.shell = "C:\Program Files\Git\git-bash.exe",     -- Shell to be used for ! commands and :! commands
+vim.opt.shell = "C:\\Program Files\\Git\\git-bash.exe",  -- Shell to be used for ! commands and :! commands
 vim.opt.shortmess:append "c",                            -- Avoid instacompletion messages from popup menu
 
 vim.cmd "set whichwrap+=<,>,[,],h,l"
